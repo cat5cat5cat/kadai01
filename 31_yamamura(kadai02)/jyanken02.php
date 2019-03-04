@@ -11,7 +11,7 @@
 <body>
 	<h1>janken.php</h1>
 	<div class="main">
-		<form id="janken" method="GET" action="janken02-2.php">
+		<form id="janken" method="GET" action="jyanken02-2.php">
 		<h2>じゃんけん？</h2>
 		<div>
 			<select name="janken">

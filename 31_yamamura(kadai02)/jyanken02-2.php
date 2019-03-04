@@ -9,6 +9,29 @@
 </head>
 <body>
 <?php
+
+	$a = $_GET["janken"];
+	echo $a;
+
+	rand = rand()
+	if($a == "guu"){
+		if(rand == gu){
+			あいこ
+		}else if(rand == pa){
+			勝ち
+		}else{
+
+		}
+	}
+	    if($a == "guu"){
+		if(rand == gu){
+			あいこ
+		}else if(rand == pa){
+			勝ち
+		}else{
+
+		}	
+	}
 	//（３）　
 	$my_hand = array('グー', 'チョキ', 'パー');
 	$my_hand_jp = array('グー', 'チョキ', 'パー');
