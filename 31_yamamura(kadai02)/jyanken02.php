@@ -55,11 +55,6 @@
 		</form>
 	</div>
 	<script type="text/javascript">
-	$(function () {
-    $('button').click(function () {
-        $('img').hide();
-    });
-});
 	</script>
 </body>
 </html>

@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<!-- <?php -->
+<!-- <?php
 	//（３）　
 	// $my_hand = array('グー', 'チョキ', 'パー');
 	// $my_hand_jp = array('グー', 'チョキ', 'パー');
@@ -50,25 +50,33 @@
 </head>
 <body>
 <?php
-
 	$a = $_GET["janken"];
 	echo $a;
 
-	rand = rand()
+	$rand = rand();
 	if($a == "guu"){
-		if(rand == gu){
-			あいこ
-		}else if(rand == pa){
-			勝ち
+		if($rand == "gu"){
+			echo 'あいこ';
+		}else if($rand == "pa"){
+			echo '勝ち';
 		}else{
 
 		}
 	}
 	    if($a == "guu"){
-		if(rand == gu){
-			あいこ
-		}else if(rand == pa){
-			勝ち
+		if($rand == "gu"){
+			echo 'あいこ';
+		}else if($rand == "pa"){
+			echo '勝ち';
+		}else{
+
+		}	
+	}
+	if($a == "guu"){
+		if($rand == "gu"){
+			echo 'あいこ';
+		}else if($rand == "pa"){
+			echo '勝ち';
 		}else{
 
 		}	
@@ -93,9 +101,10 @@
     }
     ?>
 	<h1>janken.php(結果)</h1>
+	<h1><?php echo $hands; ?></h1>
 	<div class="main">
-		<h2>あなた : $my_hand_out 相手 : $aite_hand_out </h2>
-		<h2>結果は …… $result </h2>
+		<h2>あなた :<?echo $my_hand_out;?> 相手 : <? echo $aite_hand_out;?> </h2>
+		<h2>結果は …… <? echo $result;?> </h2>
 		<p>
 			<a href="janken02-2.php">もう一回勝負！</a>
 		</p>
