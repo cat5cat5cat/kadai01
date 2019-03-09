@@ -66,7 +66,7 @@
 		<h2>あなた :<? echo $result?></h2>
 		<h2>結果は ……<? echo $kekka?></h2>
 		<p>
-			<a href="janken02-2.php">もう一回勝負！</a>
+			<a href="janken04-2.php">もう一回勝負！</a>
 		</p>
 	</div>  
 </body>
